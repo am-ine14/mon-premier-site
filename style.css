@@ -1,9 +1,31 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2); /* تدرج بنفسجي-زرق */
+    color: white; /* الكتابة تولي بيضا */
     text-align: center;
-    background-color: #f0f8ff;
-    margin-top: 100px;
+    padding: 50px;
 }
+
 h1 {
-    color: #0077cc;
+    color: #ffd700; /* العنوان ذهبي */
+}
+
+button {
+    background-color: #ff6b6b; /* البوطون حمر */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8787; /* ملي تحط السوريس كيولّي فاتح */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
 }
